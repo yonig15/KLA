@@ -28,7 +28,7 @@ This project is a console-based application designed to deserialize KLA's compan
 - Deployment: Docker, Github Actions
 - Testing: NUnit
 
-## 🔧 Installation
+## <a name="installation"></a>🔧 Installation
 
 You can install and run the Unique ID Scanner either natively or through Docker. Please choose the most suitable method for you.
 
