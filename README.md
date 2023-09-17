@@ -51,14 +51,13 @@ You can install and run the Unique ID Scanner either natively or through Docker.
 
 > ⚠️ **Note:** When running the application via Docker, ensure the settings in `appconfig.json` reflect the Docker environment setup.
 
-
-## ⚙️ Configuration
+## <a name="configuration"></a>⚙️ Configuration
 Before running the application, users need to update the `appconfig.json` file with the following details:
 - **Field1.UsernameAndPassword**: Your credentials for accessing the SQL instance. Please input as follows: ["username","password"]
 - **Field2.XmlFilesPath**: The path to the XML files that you wish to scan
 - **Field3.GenerateReport**: Specify where you would like to store generated reports. This can be a local or remote path
 
-## 📖 Usage Instructions
+## <a name="usage-instructions"></a>📖 Usage Instructions
 Our application provides both automated and manual modes. Here are the command-line options you can use:
 - `-f`, `--filePath`: The XML file path. Usage: `-f C:\folder\file.xml`
 - `-r`, `--rename`: To create a new alias. Usage: `dotnet UniqueIdsScannerUI.dll --update -r`
@@ -66,13 +65,15 @@ Our application provides both automated and manual modes. Here are the command-l
 - `--update`: To verify and update. Usage: `dotnet UniqueIdsScannerUI.dll --update`
 - `--verify`: To just verify. Usage: `dotnet UniqueIdsScannerUI.dll --verify`
 
-## 🧪 Running Tests
-We have a comprehensive suite of unit tests implemented via NUnit. Ensure your installation is working as expected by running these tests.
 
-## 👥 Contributions
+## <a name="running-tests"></a>🧪 Running Tests
+We have a comprehensive suite of unit tests implemented via NUnit. Ensure your installation is working as expected by running these tests.
+ 
+## <a name="contributions"></a>👥 Contributions
 As of now, we are not accepting contributions to this project.
 
-## 📄 License
+
+## <a name="license"></a>📄 License
 There is no specific license associated with this project.
 
 ---
